@@ -1,5 +1,4 @@
 defmodule Rocketpay.Numbers do
-
   def sum_from_file(filename) do
     "#{filename}.csv"
     |> File.read()

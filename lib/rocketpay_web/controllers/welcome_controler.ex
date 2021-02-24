@@ -20,5 +20,4 @@ defmodule RocketpayWeb.WelcomeController do
     |> put_status(:not_found)
     |> json(reason)
   end
-
 end
